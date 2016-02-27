@@ -1,0 +1,331 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:200,400,600);
+body {
+  font-size: 1em;
+  font-family: 'Raleway', Arial, sans-serif; }
+
+.gline {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 3px; }
+
+.gline:after {
+  content: '';
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease; }
+
+.gline:hover:after {
+  width: 100%;
+  background: #fff; }
+
+.text-center {
+  text-align: center; }
+
+.ter-color {
+  color: #ffc125; }
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+  position: relative; }
+
+.item {
+  width: 130px;
+  margin: 2px;
+  margin-bottom: 0px; }
+
+.item img {
+  width: 100%; }
+
+.navigation {
+  margin-top: 60px; }
+
+.footer {
+  margin-top: 50px;
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0px; }
+
+.footer a {
+  color: #fff; }
+
+.footer .social .pholder {
+  padding-top: 12px;
+  font-weight: 200;
+  font-size: 20px; }
+
+.footer .fa {
+  font-size: 30px;
+  padding: 5px 10px;
+  -webkit-transition: color 0.5s;
+  /* For Safari 3.1 to 6.0 */
+  transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -o-transition: color 0.5s; }
+
+.footer .fa-facebook:hover {
+  color: #3b5998; }
+
+.footer .fa-twitter:hover {
+  color: #0084b4; }
+
+.footer .misc {
+  border-right: 1px solid #555; }
+
+.footer .misc .pclink {
+  font-weight: 200;
+  font-size: 20px; }
+
+.footer .misc .pclink:hover {
+  color: #ffc125; }
+
+.footer .misc .vklink {
+  font-size: 20px; }
+
+.footer .vk-index {
+  padding-top: 48px; }
+
+.footer .vk {
+  padding-top: 30px; }
+
+.footer .links {
+  border-right: 1px solid #555;
+  padding-top: 30px; }
+
+.footer .credits p {
+  color: #ccc;
+  font-size: 12px; }
+
+.footer .releveant {
+  font-size: 10px;
+  color: #ccc;
+  margin: 0px; }
+
+.back a {
+  padding-left: 20px;
+  position: absolute;
+  top: 0px; }
+
+.pc-logo {
+  display: block;
+  margin: 0px auto;
+  margin-top: -130px;
+  padding-left: 10px;
+  width: 200px;
+  height: 20%;
+  margin-bottom: 15px; }
+
+.cont-details {
+  margin-top: 40px; }
+
+.cont-details p {
+  line-height: 6px; }
+
+.cont-name {
+  font-weight: 600;
+  font-size: 22px; }
+
+.cont-pos {
+  font-size: 12px; }
+
+.totalheight {
+  /* background:url('../img/gall-bg.jpg') no-repeat; background-size: cover; */ }
+
+.gal-txt {
+  color: #fff;
+  font-weight: 200;
+  text-align: center;
+  padding-top: 11%; }
+
+.gal-txt a {
+  color: #fff; }
+
+#cf-logo {
+  display: block;
+  margin: 0px auto;
+  width: 120px; }
+
+#about {
+  margin-top: 500px;
+  padding-top: 100px; }
+
+#contact {
+  margin-top: 500px;
+  padding-top: 100px; }
+
+#sticker {
+  margin-top: 0px;
+  padding-top: 27px;
+  margin-bottom: 30px; }
+
+.isStuck {
+  background-color: #fff;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20px;
+  z-index: 999; }
+
+.fullWidth {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial; }
+
+.ip-main {
+  width: 100%;
+  max-width: 100%; }
+
+/* Desktop */
+.desktop .textinfo #ani-info, .tablet .textinfo #ani-info {
+  text-align: right; }
+
+.desktop .textinfo #vish-info, .tablet .textinfo #vish-info {
+  text-align: left;
+  border-left: 1px solid #999; }
+
+.desktop #footer, .tablet #footer {
+  height: 165px; }
+
+.desktop .border-bottom, .tablet .border-bottom {
+  border-bottom: 1px solid #ccc; }
+
+.desktop .border-top, .tablet .border-top {
+  border-top: 1px solid #ccc; }
+
+.desktop .border-right, .tablet .border-right {
+  border-right: 1px solid #ccc; }
+
+.desktop .border-left, .tablet .border-left {
+  border-left: 1px solid #ccc; }
+
+.desktop .gal-txt {
+  font-size: 80px; }
+
+.desktop .textinfo #ani-info {
+  text-align: right; }
+
+.desktop .textinfo #vish-info {
+  text-align: left;
+  border-left: 1px solid #999; }
+
+/*Mobile */
+.mobile .gal-txt {
+  font-size: 80px; }
+
+.mobile .about {
+  margin-top: 300px; }
+
+.mobile #footer {
+  height: 250px; }
+
+.pc-logo-gallery {
+  width: 200px;
+  display: block;
+  margin: 0px auto; }
+
+#clients {
+  margin-top: 500px;
+  color: #333;
+  background-color: #fff;
+  padding: 50px 0px; }
+
+#clients .head {
+  color: #333; }
+
+.clientele {
+  padding-top: 50px; }
+
+.client-name {
+  padding: 30px 0px 20px 0px;
+  text-transform: uppercase;
+  height: 95px; }
+
+.clients-subname {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: -10px; }
+
+.test p {
+  padding: 0px;
+  margin: 0px; }
+
+.client-head-name {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: -20px; }
+
+.clients-subname-top {
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: -7px;
+  margin-bottom: -10px; }
+
+.totalheight {
+  height: 460px; }
+  .totalheight .categoryname {
+    text-transform: uppercase;
+    font-size: 27px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+    -webkit-transition: bottom 0.2s;
+    /* For Safari 3.1 to 6.0 */
+    transition: bottom 0.2s; }
+  .totalheight .docs-cat-text {
+    line-height: 26px;
+    padding-bottom: 12px; }
+    .totalheight .docs-cat-text .amphersant {
+      text-transform: uppercase;
+      font-size: 15px;
+      text-align: center;
+      color: #fff;
+      font-weight: 600; }
+  .totalheight .transparent-fa {
+    height: 100%; }
+  .totalheight .transparent {
+    width: 100%;
+    height: 100%; }
+  .totalheight #fashion, .totalheight #profile, .totalheight #travel, .totalheight #industrial, .totalheight #interior {
+    padding: 0px; }
+  .totalheight #interior {
+    background: url("../img/pc_large/fanda/34.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: contain; }
+    .totalheight #interior .categoryname {
+      letter-spacing: 1px;
+      line-height: 26px;
+      padding-bottom: 12px; }
+      .totalheight #interior .categoryname .amphersant {
+        text-transform: uppercase;
+        font-size: 15px;
+        text-align: center;
+        color: #fff;
+        font-weight: 600; }
+  .totalheight #profile {
+    background: url("../img/pc_large/furni/56.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: cover; }
+    .totalheight #profile .categoryname {
+      letter-spacing: 1px; }
+  .totalheight #fashion {
+    background: url("../img/thumbs/fashion.jpg") no-repeat;
+    background-size: cover;
+    background-position: 40% 0%; }
+  .totalheight #travel {
+    background: url("../img/pc_large/other/11.jpg") no-repeat;
+    background-size: cover;
+    background-position: center; }
+    .totalheight #travel .categoryname {
+      letter-spacing: 2px; }
+  .totalheight #industrial {
+    background: url("../img/pc_large/babycare/55.jpg") no-repeat;
+    background-size: contain;
+    background-position: center; }
